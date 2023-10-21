@@ -4,9 +4,9 @@ var points = [],
 document.getElementById('container'),
   context = canvas.getContext('2d'),
   radius = 5,
-  boundaryX = 200,
-  boundaryY = 200,
-  numberOfPoints = 30;
+  boundaryX = 100,
+  boundaryY = 100,
+  numberOfPoints = 25;
 
 init();
 
