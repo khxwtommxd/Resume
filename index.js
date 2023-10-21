@@ -61,7 +61,7 @@ function resetVelocity(point, axis, dir) {
 
 function drawCircle(x, y) {
   context.beginPath();
-  context.arc(x, y, radius, 0, 2 * Math.PI, false);
+  context.arc(x, y, radius, 0, 1 * Math.PI, false);
   context.fillStyle = '#CA9CAC';
   context.fill();  
 }
